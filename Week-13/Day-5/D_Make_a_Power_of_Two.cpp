@@ -20,7 +20,7 @@ ll check(string num, string chk)
             {
                 ok = true;
                 found++;
-                idx++;
+                idx = j + 1;
                 break;
             }
         }
